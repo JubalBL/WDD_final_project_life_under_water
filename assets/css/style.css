@@ -1,5 +1,7 @@
 :root{
-	--bgcolour: #cae9ff;
+	--bgcolour: #C5E2F7;
+	--buttonColour: #D0BCAC;
+	--headings: #24707C;
 	
 }
 body{
@@ -28,7 +30,7 @@ hr{
 	border: 0;
 }
 	/*Main Section*/
-main{
+main.index{
 	background-image: url("../img/turtle_ocean_JB.jpg"); /*Image Link: https://www.pexels.com/photo/photo-of-a-turtle-swimming-underwater-847393/*/
 	display: flex;
 	flex-direction: column;
@@ -41,5 +43,31 @@ main{
 
 h1{
 	color: white;
+	font-weight: bold;
 	z-index: 1;
+}
+
+p.whiteText{
+	color: white;
+	z-index: 1;
+	font-weight: bold;
+	font-size: small;
+}
+
+h2{
+	text-align: center;
+	padding: 50px;
+	color: var(--headings);
+}
+ /*Section 2 begins*/
+.section2_home{
+	text-align: center;
+}
+
+.btn,
+.btn-light{
+		background-color: var(--buttonColour); 
+		border: var(--buttonColour);
+		color: white;
+		font-weight: bold;
 }

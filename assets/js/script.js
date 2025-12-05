@@ -1,3 +1,4 @@
+// These functions will check the value of the parameter 'answer'
 function checkClick(answer){
 	event.preventDefault();
 	if(answer == 'true'){

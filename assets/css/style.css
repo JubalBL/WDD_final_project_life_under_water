@@ -171,3 +171,87 @@ footer{
 	font-weight: bold;
 	font-size: small;
 }
+
+
+/*SOLUTIONS PAGE STARTS HERE*/
+
+/*Section1 solutions*/
+.section1_solutions{
+	display: block;
+}
+
+.section1_solutions h1{
+	text-align: center;
+	color: var(--headings);
+}
+.bigtext{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 0;
+	font-weight: bold;
+	color: var(--buttonColour);
+}
+
+.solText {
+  background-color: var(--buttonColour);
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.left, 
+.right {
+  float: none;
+  margin-left: 0;
+}
+
+.img_solutions{
+	overflow: hidden;
+	height: 350px;
+}
+.solimg{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 10px 0;
+	
+}
+
+/*Section2 solutions*/
+
+.section2_solutions{
+	align-items: center;
+	background-color: var(--headings);
+	justify-content: justify;
+	margin: 20px;
+	margin-top:200px;
+	width: auto;
+}
+h3.h3solutions{
+	text-align: center;
+}
+h3.h3solutions,
+.psection3,
+#biggerText{
+	color: white;
+}
+#biggerText{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.right{
+	margin-left: 60px;
+	margin-top: 0;
+	float: right;
+	width: 350px;
+	
+}
+.left{	
+	margin-right: 60px;
+	margin-top: 0;
+	float: left;
+	width: 350px;
+}

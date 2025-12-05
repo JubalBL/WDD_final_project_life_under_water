@@ -10,9 +10,12 @@ body{
 .container{
 	background-color: var(--bgcolour);
 	width: 100%;
+	overflow: visible;
 }
 /*Header section*/
-nav.navbar{	
+
+.navbar{	
+	background-color: var(--bgcolour);
 	top: 0;
 	z-index: 1000;
 	height: 61px;
@@ -29,7 +32,7 @@ hr{
 	height: 0;
 	border: 0;
 }
-	/*Main Section*/
+	/*Main Section (1)*/
 main.index{
 	background-image: url("../img/turtle_ocean_JB.jpg"); /*Image Link: https://www.pexels.com/photo/photo-of-a-turtle-swimming-underwater-847393/*/
 	display: flex;
@@ -39,6 +42,9 @@ main.index{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+.s1p::first-letter{
+	font-size: 150%;
 }
 
 h1{
@@ -70,4 +76,48 @@ h2{
 		border: var(--buttonColour);
 		color: white;
 		font-weight: bold;
+}
+
+/*Section 3 begins*/
+
+.section3_home{
+	
+	width: 100%;
+	max-width: 800px;
+	height: 400px;
+	margin: 100px auto;
+}
+
+h3{
+	text-align: center;
+	color:var(--headings);
+	margin-bottom: 50px;
+}
+.coralS3{
+	max-width: 100%;
+	height: auto;
+	
+}
+
+/*Section 4 home starts*/
+
+.card,
+.w-50{
+	background-color: var(--headings);
+}
+
+.btns{
+	text-align: center;
+}
+
+.btnLeft{
+	margin-right: 50px;
+	border-radius: 4px;
+	border: solid 2px black;
+}
+
+.btnRight{
+	margin-left: 50px;
+	border-radius: 4px;
+	border: solid 2px black;
 }

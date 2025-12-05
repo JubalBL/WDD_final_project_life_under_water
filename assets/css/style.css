@@ -16,6 +16,15 @@ body{
 	overflow: visible;
 }
 /*Header section*/
+.dropdown:hover .dropdown-menu{
+	margin-top: 0;
+	display: block;
+}
+
+.dropdown:hover .dropdown-toggle::after{
+	border-top: 0;
+	border-bottom: 5px solid;
+}
 
 .navbar{	
 	background-color: var(--bgcolour);

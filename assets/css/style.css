@@ -101,23 +101,27 @@ h3{
 
 /*Section 4 home starts*/
 
+.container,
+.text-center{
+	padding: 30px;
+}
 .card,
 .w-50{
 	background-color: var(--headings);
 }
 
 .btns{
-	text-align: center;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 10px;
 }
 
-.btnLeft{
-	margin-right: 50px;
-	border-radius: 4px;
-	border: solid 2px black;
-}
-
+.btnLeft, 
 .btnRight{
-	margin-left: 50px;
+	padding: 6px 12px;
+	font-size: 14px;
 	border-radius: 4px;
-	border: solid 2px black;
+	min-width: 60px;
+	text-align: center;
 }

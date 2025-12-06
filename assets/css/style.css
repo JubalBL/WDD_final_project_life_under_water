@@ -7,6 +7,9 @@
 	--bgcolour4: #816F68;
 	
 }
+html{
+	scroll-behavior: smooth;
+}
 body{
 	background-color: var(--bgcolour);
 }

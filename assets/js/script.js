@@ -52,3 +52,7 @@ function toggleHide(){
 	}
 	
 }
+
+function thankYou(){
+	alert("Thank you for subscribing");
+}

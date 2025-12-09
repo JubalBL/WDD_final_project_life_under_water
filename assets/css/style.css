@@ -317,3 +317,34 @@ iframe{
 .cardGI{
 	background-color: var(--bgcolour4);
 }
+.card-link:hover{
+	color: white;
+	font-weight: bold;
+}
+
+
+/*About us page*/
+
+form{
+	background-color: var(--bgcolour4);
+}
+
+
+
+/*threats page*/
+
+.bg4{
+	background-color: var(--bgcolour4);	
+}
+.h1ThreatsW{
+	color: white;
+}
+.bgw,
+.h1ThreatsW{
+	color: var(--bgcolour4);
+	background-color: white;
+}
+
+.bg3{
+	background-color: var(--bgcolour3);
+}

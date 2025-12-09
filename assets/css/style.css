@@ -112,7 +112,6 @@ p.whiteText{
 }
 .section2_home p{
 	font-size: 25px;
-	font-weight: none;
 	color: white;
 }
 
@@ -243,7 +242,6 @@ footer{
 .section2_solutions{
 	align-items: center;
 	background-color: var(--headings);
-	justify-content: justify;
 	margin: 20px;
 	margin-top:200px;
 	width: auto;
@@ -253,10 +251,10 @@ h3.h3solutions{
 }
 h3.h3solutions,
 .psection3,
-#biggerText{
+.biggerText{
 	color: white;
 }
-#biggerText{
+.biggerText{
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -302,7 +300,6 @@ h3.h3solutions,
 	text-align: center;
 }
 iframe{
-	height: fixed;
 	align-items: center; /*We are styling the embeded website so it works decently*/
 	width: 1080px;
 	height: 700px;

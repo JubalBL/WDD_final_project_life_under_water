@@ -13,6 +13,16 @@ html{
 body{
 	background-color: var(--bgcolour);
 }
+footer{
+	margin-top: 20px;
+	background-color: var(--bgcolour4);
+	height: 80px;
+	opacity: 95%;
+}
+
+.center{
+	text-align: center;
+}
 .container{
 	background-color: var(--bgcolour);
 	width: 100%;
@@ -58,6 +68,12 @@ main.index{
 	background-position: center;
 	background-repeat: no-repeat;
 }
+#h2Main{
+	margin-top: 10px;
+	border-radius: 12px;
+	background-color: var(--bgcolour4);
+}
+
 .s1p::first-letter{
 	font-size: 150%;
 }
@@ -257,4 +273,47 @@ h3.h3solutions,
 	margin-top: 0;
 	float: left;
 	width: 350px;
+}
+
+/* GET INVOLVED PAGE STARTS HERE*/
+
+/*SECTION 1 GET INVOLVED*/
+
+#section1GetInvolved,
+#h1GI{
+	color: var(--bgcolour2);
+}
+
+#h1GI{
+	display: inline-block;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+/*SECTION 2 GET INVOLVED*/
+.section2GetInvolved{
+	margin-bottom: 150px;
+}
+
+/*SECTION 3 GET INVOLVED*/
+
+.section3GetInvolved{
+	text-align: center;
+}
+iframe{
+	height: fixed;
+	align-items: center; /*We are styling the embeded website so it works decently*/
+	width: 1080px;
+	height: 700px;
+	overflow: hidden;
+}
+/*HIDDEN SECTION BEGGINS*/
+
+.inline{
+	display: inline;
+	width: 600px;
+}
+.cardGI{
+	background-color: var(--bgcolour4);
 }

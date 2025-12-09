@@ -31,3 +31,24 @@ function checkClick4(answer){
 		alert("Wrong!\nAccording to the International Union for Conservation of Nature (IUCN), there are over 1,550 marine species at risk of extinction. Of these, sharks and rays are the group most critically at risk");
 	}
 }
+
+
+
+
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))	
+
+
+// Get involved code
+
+document.getElementById("showOnclick").style.display = "none";
+
+function toggleHide(){
+	var x = document.getElementById("showOnclick");
+	if(x.style.display === "none"){
+		x.style.display = "block";
+	}else{
+		x.style.display = none;
+	}
+	
+}
